@@ -1,0 +1,35 @@
+.NEMU/
+.VirtualBox/
+.android/
+.bash_history
+.bash_profile
+.ssh/
+.vim
+.viminfo
+.vs/
+3D Objects/
+AppData/
+Contacts/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Links/
+MicrosoftEdgeBackups/
+Music/
+NTUSER.DAT
+NTUSER.DAT{1c3790b4-b8ad-11e8-aa21-e41d2d101530}.TM.blf
+NTUSER.DAT{1c3790b4-b8ad-11e8-aa21-e41d2d101530}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{1c3790b4-b8ad-11e8-aa21-e41d2d101530}.TMContainer00000000000000000002.regtrans-ms
+OneDrive/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+VirtualBox VMs/
+_viminfo
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
