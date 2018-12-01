@@ -5,8 +5,8 @@ set nocompatible
 
 
 let mapleader=","
-map <silent> <leader>ss :so ~/.vimrc<cr>
-map <silent> <leader>ee :e ~/.vimrc<cr>
+map <silent> <leader>ss :so ~/vimfiles/vimrc<cr>
+map <silent> <leader>ee :e ~/vimfiles/vimrc<cr>
 map <silent> <leader>oo :so session.vim<cr>
 map <silent> <leader>mm :mks!<cr>
 
@@ -44,6 +44,7 @@ set nowb "writeback
 "set backupdir=~/tmp
 
 set nu "number
+set rnu "relativenumber
 set ru "ruler
 set ai "auto indent
 set ci "c indent
@@ -77,12 +78,21 @@ set cul "cursor line
 set noeb "noerrorbells
 set novb "novisualbell
 "set vb t_vb=
+"
+colo desert
 
-let g:vimim_map=3
-map <F4> :call g:Jsbautify()<CR>
 
-"solarized color scheme options
-":h solarized
-"let g:solarized_menu=0
-"let g:solarized_bold=0    "default value is 1
-"color solarized
+
+
+"plug.vim
+call plug#begin('~/vimfiles/plugged')
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-markdown'
+Plug 'tpope/vim-unimpaired'
+Plug 'terryma/vim-expand-region'
+Plug 'easymotion/vim-easymotion'
+"Plug 'Valloric/YouCompleteMe'
+call plug#end()
