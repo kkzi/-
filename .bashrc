@@ -3,7 +3,7 @@ alias g="git"
 alias gs="git status"
 alias ga="git add"
 alias gla="git pull --all"
-alias gl="git pull --rebase origin"
+alias gl="git pull --rebase"
 alias gld="git pull --rebase origin develop"
 alias glm="git pull --rebase origin master"
 alias gc="git commit"
@@ -20,17 +20,14 @@ alias gdt="git difftool -y"
 alias gg="gbd;gl;gmg;gp;gbg;gld;"
 
 #dir alias
-alias c2="cd /d/code/AutoTestSystem"
-alias c3="cd /d/code/ats_server"
-alias cc="cd /d/work/code"
-alias cdd="cd /d/"
-alias cdl="cd /e/download"
-alias ce="cd /e/"
-alias cw="cd /d/work/"
-alias c1="cd /d/work/code/zhdz"
+alias c2="cd /c/dev/code/AtsClient"
+alias c3="cd /c/dev/code/AtsServer"
 alias l="ls -l"
 alias ll="ls -l"
 
 alias ali="ssh root@47.98.240.192"
 alias rhl="ssh root@192.168.0.180"
+
+#cmake
+alias cm2015=cmake .. -G "Visual Studio 15 2017" -T v140 -A x64
 
