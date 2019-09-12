@@ -17,9 +17,10 @@ alias gbb="git checkout -b"
 alias gbd="git checkout develop"
 alias gbg="git checkout guoxuan"
 alias gdt="git difftool -y"
-alias gg="gbd;gl;gmg;gp;gbg;gld;"
+alias gg="gbd;gl;gmg;gp;gbg;"
 
 #dir alias
+alias c1="cd /c/dev/code/fts4"
 alias c2="cd /c/dev/code/AtsClient"
 alias c3="cd /c/dev/code/AtsServer"
 alias l="ls -l"
@@ -29,5 +30,9 @@ alias ali="ssh root@47.98.240.192"
 alias rhl="ssh root@192.168.0.180"
 
 #cmake
-alias cm2015=cmake .. -G "Visual Studio 15 2017" -T v140 -A x64
+alias cm2015="cmake .. -G 'Visual Studio 15 2017' -T v140 -A x64"
+alias cm2017="cmake .. -G 'Visual Studio 16 2019' -T v141 -A x64"
+
+#python
+alias python="python -i"
 
