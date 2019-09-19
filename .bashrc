@@ -17,6 +17,7 @@ alias gbb="git checkout -b"
 alias gbd="git checkout develop"
 alias gbg="git checkout guoxuan"
 alias gdt="git difftool -y"
+alias gmt="git mergetool -y"
 alias gg="gbd;gl;gmg;gp;gbg;"
 
 #dir alias

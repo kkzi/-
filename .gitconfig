@@ -5,3 +5,16 @@
 	quotepath = false
 [i18n]
     #logoutputencoding = gbk
+[gui]
+	recentrepo = C:/Dev/code/AtomSCCServer
+[diff]
+    tool = bc4
+[difftool "bc4"]
+    cmd="c:/Progra~1/Beyond~1/bcomp.exe" "$LOCAL" "$REMOTE"
+[merge]
+    tool = bc4
+[mergetool "bc4"]
+    cmd="c:/Progra~1/Beyond~1/bcomp.exe" "$LOCAL" "$REMOTE" "$BASE" "$MERGED"
+
+
+
